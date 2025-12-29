@@ -11,5 +11,19 @@
         "username": "addressmehari",
         "facing": "down",
         "has_terrace": false
-    }
+    },
+    {
+        "x": 0,
+        "y": 0,
+        "color": "#0e8cb2",
+        "roofStyle": 0,
+        "doorStyle": 2,
+        "windowStyle": 0,
+        "chimneyStyle": 0,
+        "wallStyle": 3,
+        "username": "bavani",
+        "facing": "down",
+        "has_terrace": false
+    },
+    
 ]
