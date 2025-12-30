@@ -57,15 +57,25 @@
 
 GitVille bridges the gap between GitHub data and visual art. Here is the flow of data:
 
-```mermaid
-graph TD
-    A[GitHub API] -->|Fetch Stargazers| B(fetch_stargazers.py)
-    B -->|Generate Layout| C{Data Files}
-    C -->|houses.json| D[Frontend App]
-    C -->|roads.json| D
-    E[world.py] -->|Update State| F[world.json]
-    F --> D
-    D -->|Render| G((Canvas))
+```
+⭐ GitHub API
+     |
+     v
+🐍 fetch_stargazers.py
+     |
+     v
+📁 Data Files
+ ├── houses.json
+ ├── roads.json
+     |
+     v
+🌍 world.py
+     |
+     v
+🌐 Frontend App
+     |
+     v
+🎨 Canvas (City Render)
 ```
 
 1.  **Data Fetching**: The `fetch_stargazers.py` script pulls the latest stargazers.
