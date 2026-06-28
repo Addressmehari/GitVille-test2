@@ -15,6 +15,16 @@
     {
         "x": 3.0,
         "y": -3.0,
+        "obstacle": "tree"
+    },
+    {
+        "x": 5.0,
+        "y": -3.0,
+        "obstacle": "tree"
+    },
+    {
+        "x": 7.0,
+        "y": -3.0,
         "color": "#6e911c",
         "roofStyle": 2,
         "doorStyle": 2,
